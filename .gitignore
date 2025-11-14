@@ -1,0 +1,8 @@
+__pycache__/
+.venv/
+.pytest_cache/
+htmlcov/
+.DS_Store
+/*.html
+/*.xml
+/*.log
