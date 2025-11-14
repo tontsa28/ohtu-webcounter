@@ -24,3 +24,8 @@ Open And Configure Browser
         Set Selenium Speed  ${DELAY}
     END
     Open Browser  browser=${BROWSER}  options=${options}
+
+Exit Browser
+    Go To  ${HOME_URL}
+    Click Button  Nollaa
+    Close Browser
